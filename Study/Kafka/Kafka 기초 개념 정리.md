@@ -75,3 +75,8 @@
 - 주로, Consumer 상태를 볼 때 사용함
 - 토픽에 여러 파티션이 존재하면, Lag도 여러 개가 될 수 있고 높은 숫자의 lag을 records-lag-max라고 함
 - 모니터링 시 LinkedIn의 Burrow를 도입하면 효과적임
+
+
+
+< 참고 자료 >
+https://www.inflearn.com/course/%EC%95%84%ED%8C%8C%EC%B9%98-%EC%B9%B4%ED%94%84%EC%B9%B4-%EC%9E%85%EB%AC%B8/dashboard
