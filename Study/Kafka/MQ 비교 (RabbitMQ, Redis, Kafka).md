@@ -73,3 +73,8 @@ Consumer 그룹의 존재 이유
 - channel은 이벤트 저장 X
 - channel에 이벤트 도착 했을 때, 해당 채널의 subscriber가 존재하지 않으면 이벤트가 사라짐
 - subscriber는 동시에 여러 channel을 구독할 수 있으며, 특정한 channel을 지정하지 않고 패턴을 설정하여 해당 패턴에 맞는 채널을 구독할 수 있음
+
+
+
+< 참고 자료 > 
+https://velog.io/@mdy0102/MQ-%EB%B9%84%EA%B5%90-Kafka-RabbitMQ-Redis
