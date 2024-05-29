@@ -50,6 +50,20 @@ FROM → ON → JOIN → WHERE → GROUP BY → HAVING → SELECT → DISTINCT �
 
 
 
+## Clustered Index, Non-Clustered Index
+
+[Clustered Index ] 
+- 보통 PK에서 사용되는 인덱스이다. 
+- 마지막 리프노드에는 데이터에 직접 접근이 가능하도록 실제 레코드(데이터 페이지) 주소를 가진다.
+
+[ Non-Clustered Index ] 
+- FK에서 사용되고 리프노드에는 PK를 저장한다.
+- 실제 데이터를 찾으려면 두번 인덱스 검색이 일어남
+	1. secondary index로 해당 레코드의 PK값을 찾고
+	2. PK값으로 clustered index를 검색하여 레코드를 찾음
+
+
+
 ## 정규화 
 
 [ 개념 ]
