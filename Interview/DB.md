@@ -1,7 +1,6 @@
 ## 실행 순서
 
-FROM → ON → JOIN → WHERE → GROUP BY → HAVING → SELECT → DISTINCT → ORDER BY 
-→ LIMIT
+FROM → ON → JOIN → WHERE → GROUP BY → HAVING → SELECT → DISTINCT → ORDER BY → LIMIT
 
 
 
@@ -12,7 +11,7 @@ FROM → ON → JOIN → WHERE → GROUP BY → HAVING → SELECT → DISTINCT �
 
 
 
-## 인덱스(Index)란 ?
+## 인덱스(Index)란 ? ✅
 
 [ 개념 ]
 - FTS(Full Table Scan)과는 달리 인덱스를 검색하여 해당 자료의 테이블을 엑세스 하는 방법
